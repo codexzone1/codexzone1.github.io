@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' ,sans-serif;
+}
+@media screen and (min-width:349px) and (max-width:1164px){
+    section
+    {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background: #131417
+    }
+    section .container
+    {
+        position: relative;
+        min-width: 100vh;
+        align-content: center;
+        min-height: 100vh;
+        align-self: center;
+        margin-left: 60%;
+        display: flex;
+        z-index: 1000;
+    }
+    
+    section .container .contactinfo
+    {
+        margin-left:2rem;
+        align-self: start;
+        align-items: flex-start;
+        position: absolute;
+        top: auto;
+        margin-top: 0;
+        padding: 40px;
+        padding-right: 80px;
+        width:auto;
+        margin-left: 100%;
+        height: calc(100%-80px);
+        
+        background: #0f3959;
+        z-index: 1;
+        margin-left:0;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    section .container .contactinfo h2
+    {
+        color: #fff;
+        font-size: 1.65rem;
+        font-weight: 70;
+    }
+    section .container .contactinfo .info
+    {
+        position: relative;
+        margin: 7px 0;
+    }
+    section .container .contactinfo .info li
+    {
+        position: relative;
+        list-style: none;
+        display: flex;
+        margin: 10px 0;
+        cursor: pointer;
+        align-self: center;
+        align-items: flex-start;
+    }
+    section .container .contactinfo .info li span:nth-child(1)
+    {
+        width: 10px;
+        min-width: 10px;
+    }
+    section .container .contactinfo .info li span:nth-child(1) img
+    {
+        
+        width: 3vh;
+        filter: invert(1);
+        opacity: 0.5;
+    }
+    
+    section .container .contactinfo .info li span:nth-child(2)
+    {
+        color: #fff;
+        margin-left: 15px;
+        font-weight: 100;
+        opacity: 0.5;
+    }
+    section .container .contactinfo .info li:hover span:nth-child(1) img,
+    section .container .contactinfo .info li:hover span:nth-child(2)
+    {
+        opacity: 1;
+    
+    }
+    section .container .contactform
+    {
+        margin: left 50vh; 
+        
+        margin-top: 15rem;
+        position: absolute;
+        padding: 70px 50px;
+        background: #fff;
+        margin-left: 70px;
+        padding-left: 100px;
+        width: calc(100%-100px);
+        height: 60vh;
+        width: 50vh;
+        box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+    }
+    section .container .contactform h2
+    {
+        color: #0f3959;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    section .container .contactform .formBox
+    {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 10px;
+    }
+    section .container .contactform .formBox .inputBox
+    {
+        position: relative;
+        margin: 0 0 15px 0;
+    }
+    section .container .contactform .formBox .inputBox.w50
+    {
+        width: 47%;
+    }
+    section .container .contactform .formBox .inputBox.w100
+    {
+        width: 100%;
+    }
+    section .container .contactform .formBox .inputBox input,
+    section .container .contactform .formBox .inputBox textarea
+    {
+        width: 100% !important;
+        resize: none;
+        padding: 5px 0;
+        font-size: 18px;
+        font-weight: 300;
+        color: #333;
+        border: none;
+        border-bottom: 1px solid #777;
+        outline: none;
+    }
+    section .container .contactform .formBox .inputBox textarea
+    {
+            
+        min-height: 100px;
+    }
+    section .container .contactform .formBox .inputBox span
+    {
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 18px;
+        font-weight: 300;
+        color: #333;
+        transition: 0.5s;
+        pointer-events: none;
+    }
+    section .container .contactform .formBox .inputBox input:focus ~ span,
+    section .container .contactform .formBox .inputBox textarea:focus ~ span,
+    section .container .contactform .formBox .inputBox input:valid ~ span,
+    section .container .contactform .formBox .inputBox textarea:valid ~ span
+    {
+        transform: translateY(-20px);
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: #ff568c;
+    }
+    
+    section .container .contactform .formBox .inputBox input[type="submit"]
+    {
+        position: relative;
+        cursor: pointer;
+        background: #0f3959;
+        color: #fff;
+        border: none;
+        max-width: 150px;
+        padding: 12px;
+    }
+    section .container .contactform .formBox .inputBox input[type="submit"]:hover
+    {
+        background: #ff568c;
+    }
+
+}
+@media screen and (min-width:1164px){
+    section
+    {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background:#131417;
+    }
+    section .container
+    {
+        position: relative;
+        min-width: 1100px;
+        min-height: 550px;
+        display: flex;
+        z-index: 1000;
+    }
+    section .container .contactinfo
+    {
+        position: absolute;
+        top: 40px;
+        width: 350px;
+        height: calc(100%-80px);
+        background: #0f3959;
+        z-index: 1;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+    }
+    section .container .contactinfo h2
+    {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    section .container .contactinfo .info
+    {
+        position: relative;
+        margin: 20px 0;
+    }
+    section .container .contactinfo .info li
+    {
+        position: relative;
+        list-style: none;
+        display: flex;
+        margin: 20px 0;
+        cursor: pointer;
+        align-items: flex-start;
+    }
+    section .container .contactinfo .info li span:nth-child(1)
+    {
+        width: 30px;
+        min-width: 30px;
+    }
+    section .container .contactinfo .info li span:nth-child(1) img
+    {
+        max-width: 100%;
+        filter: invert(1);
+        opacity: 0.5;
+    }
+    section .container .contactinfo .info li span:nth-child(2)
+    {
+        color: #fff;
+        margin-left: 10px;
+        font-weight: 300;
+        opacity: 0.5;
+    }
+    section .container .contactinfo .info li:hover span:nth-child(1) img,
+    section .container .contactinfo .info li:hover span:nth-child(2)
+    {
+        opacity: 1;
+    
+    }
+    section .container .contactinfo .sci
+    {
+        position: relative;
+        display: flex;
+    }
+    section .container .contactinfo .sci li
+    {
+        list-style: none;
+        margin-right: 15px;
+    }
+    section .container .contactinfo .sci li a
+    {
+        text-decoration: none;
+    
+    }
+    section .container .contactinfo .sci li a img
+    {
+        filter: invert(1);
+        opacity: 0.5;
+        }
+    section .container .contactinfo .sci li:hover a img
+    {
+        opacity: 1;
+    }
+    section .container .contactform
+    {
+        position: absolute;
+        padding: 70px 50px;
+        background: #fff;
+        margin-left: 150px;
+        padding-left: 250px;
+        width: calc(100%-150px);
+        height: 100%;
+        box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
+    }
+    section .container .contactform h2
+    {
+        color: #0f3959;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    section .container .contactform .formBox
+    {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    section .container .contactform .formBox .inputBox
+    {
+        position: relative;
+        margin: 0 0 35px 0;
+    }
+    section .container .contactform .formBox .inputBox.w50
+    {
+        width: 47%;
+    }
+    section .container .contactform .formBox .inputBox.w100
+    {
+        width: 100%;
+    }
+    section .container .contactform .formBox .inputBox input,
+    section .container .contactform .formBox .inputBox textarea
+    {
+        width: 100% !important;
+        resize: none;
+        padding: 5px 0;
+        font-size: 18px;
+        font-weight: 300;
+        color: #333;
+        border: none;
+        border-bottom: 1px solid #777;
+        outline: none;
+    }
+    section .container .contactform .formBox .inputBox textarea
+    {
+        min-height: 120px;
+    }
+    section .container .contactform .formBox .inputBox span
+    {
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 18px;
+        font-weight: 300;
+        color: #333;
+        transition: 0.5s;
+        pointer-events: none;
+    }
+    section .container .contactform .formBox .inputBox input:focus ~ span,
+    section .container .contactform .formBox .inputBox textarea:focus ~ span,
+    section .container .contactform .formBox .inputBox input:valid ~ span,
+    section .container .contactform .formBox .inputBox textarea:valid ~ span
+    {
+        transform: translateY(-20px);
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: #ff568c;
+    }
+    
+    section .container .contactform .formBox .inputBox input[type="submit"]
+    {
+        position: relative;
+        cursor: pointer;
+        background: #0f3959;
+        color: #fff;
+        border: none;
+        max-width: 150px;
+        padding: 12px;
+    }
+    section .container .contactform .formBox .inputBox input[type="submit"]:hover
+    {
+        background: #ff568c;
+    }
+}
+

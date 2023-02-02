@@ -1,0 +1,319 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/real-estate-icon.webp">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">Real Estate</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#services" class="list-link">Services</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#properties" class="list-link">Properties</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./contact-form/index.html" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signin.html" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="./signup.html" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="#" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Sign up</span>
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- HOME -->
+    <section  class="hero" id="hero">
+        <div class="fade"></div>
+        <div class="hero-text">
+            <h1 class="title">Buy and sell real estate properties</h1>
+            <p class="title">Lorem ipsum dolor sit amet consectectur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+        </div>
+
+        <a href="./contact-form/index.html" class="btn button hero-btn">
+            <span>Contact</span>
+        </a>
+    </section>
+
+
+    <section id="services">
+        <div class="container">
+            <h2 class = "title section-title" data-name="services"> Services</h2>
+            <div class="flex d-grid" >
+                <div>
+                    <i class="fa fa-home"></i>
+                    <div class="services-card-right">
+                        <h3 class="title">Search Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <i class="fa fa-dollar"></i>
+                    <div class="services-card-right">
+                        <h3 class="title">Buy Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <i class="fa fa-line-chart"></i>
+                    <div class="services-card-right">
+                        <h3 class="title">Investing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <i class="fa fa-building"></i>
+                    <div class="services-card-right">
+                        <h3 class="title">List a Property</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <i class="fa fa-search"></i>
+                    <div class="services-card-right">
+                        <h3 class="title">Property Locator</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+
+                <div>
+                    <i class="fa fa-mobile"></i>
+                    <div class="services-card-right">
+                        <h3 class="title">Stated Apps</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="quick-read section" id="properties">
+
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Properties">Properties</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <a href="#" class="article swiper-slide">
+                        <img src="images/house-1836070__480.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>6 beds</span>
+                                <span class="article-data-spacer"></span>
+                                <span>4250 sqft.</span>
+                            </div>
+                            <h3 class="title article-title">$349000</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="article swiper-slide">
+                        <img src="images/2.jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>6 beds</span>
+                                <span class="article-data-spacer"></span>
+                                <span>4250 sqft.</span>
+                            </div>
+                            <h3 class="title article-title">$549700</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="article swiper-slide">
+                        <img src="images/3.webp" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>6 beds</span>
+                                <span class="article-data-spacer"></span>
+                                <span>4250 sqft.</span>
+                            </div>
+                            <h3 class="title article-title">$649000</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="article swiper-slide">
+                        <img src="images/4.avif" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>6 beds</span>
+                                <span class="article-data-spacer"></span>
+                                <span>4250 sqft.</span>
+                            </div>
+                            <h3 class="title article-title">$449000</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="article swiper-slide">
+                        <img src="images/5.jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>6 beds</span>
+                                <span class="article-data-spacer"></span>
+                                <span>4250 sqft.</span>
+                            </div>
+                            <h3 class="title article-title">$549000</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="article swiper-slide">
+                        <img src="images/6.jpg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+                            <div class="article-data">
+                                <span>6 beds</span>
+                                <span class="article-data-spacer"></span>
+                                <span>4250 sqft.</span>
+                            </div>
+                            <h3 class="title article-title">$649000</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+                
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer      -->
+    
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+                <a href="./index.html">
+                    <h2 class="logo">Real Estate</h2>
+                </a>
+                <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, iure. Harum, animi dolores, nam, ad magni expedita.</p>
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-instagram-line"></i></a>
+
+                    </li>
+
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-facebook-circle-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-twitter-line"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link"><i class="ri-pinterest-line"></i></a>
+                    </li>
+
+                </ul>
+
+                <span class="copyright-notice">&copy;2023 Real Estate. All rights reserved.</span>
+
+            </div>
+
+            
+        
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Elements</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="./contact-form/index.html" class="list-link">Contacts</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Services</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Testimonials</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div>
+                <h6 class="title footer-title">Company</h6>
+                
+                <ul class="footer-list list">
+                    <li class="list-item">
+                        <a href="./contact-form/index.html" class="list-link">Contact us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">F.A.Q</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">About</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">clients</a>
+                    </li>
+                </ul>
+
+            </div>  
+
+        </div>
+     </footer>
+      
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    </body>
+    </html>
